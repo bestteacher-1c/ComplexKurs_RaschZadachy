@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>0:3113d4d7-b924-40ff-8643-74ae45ee25b9</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>0:3113d4d7-b924-40ff-8643-74ae45ee25b9</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>0:3113d4d7-b924-40ff-8643-74ae45ee25b9</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.НачислениеЗарплаты.StandardCommand.OpenList</commands>
+      <commands>0:1ab99571-4cc9-4a06-a520-dc65be9ae758</commands>
+      <commands>0:1496852a-7798-4125-a07e-7f8c7fa5f0b7</commands>
+      <commands>0:3e74616d-3f35-4d36-a583-84267872cafc</commands>
+      <commands>0:97f4b7af-46a7-4f57-bf11-90a0557acdb1</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>
