@@ -36,6 +36,7 @@
   <commonPictures>CommonPicture.Документы</commonPictures>
   <commonPictures>CommonPicture.Сервис</commonPictures>
   <interfaces>Interface.Основной</interfaces>
+  <commonModules>CommonModule.Сервер</commonModules>
   <commonForms>CommonForm.ИнтерфейсНачальнойСтраницы_</commonForms>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
