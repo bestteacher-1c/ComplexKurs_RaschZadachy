@@ -28,10 +28,24 @@
     </synonym>
   </enumValues>
   <enumValues uuid="82103179-683a-49e9-8570-1a216aeae926">
-    <name>Перемещение</name>
+    <name>Отпуск</name>
     <synonym>
       <key>ru</key>
-      <value>Перемещение</value>
+      <value>Отпуск</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3ec1c1dc-235b-4163-849b-b768900171af">
+    <name>Командировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Командировка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="740f16fe-eaea-41d2-85ba-f2beadd1e347">
+    <name>Больничный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Больничный</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>
