@@ -20,7 +20,8 @@
   <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
   <mainSectionPicture/>
   <defaultLanguage>Language.Русский</defaultLanguage>
-  <compatibilityMode>8.3.8</compatibilityMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <compatibilityMode>8.3.14</compatibilityMode>
   <languages uuid="32a9ad07-27d3-4bfc-b639-6f7887ee885e">
     <name>Русский</name>
     <synonym>
@@ -38,6 +39,8 @@
   <interfaces>Interface.Основной</interfaces>
   <commonModules>CommonModule.Сервис</commonModules>
   <commonModules>CommonModule.Серверный</commonModules>
+  <commonModules>CommonModule.Сервер</commonModules>
+  <eventSubscriptions>EventSubscription.ПроведениеКадровыхДокументов</eventSubscriptions>
   <constants>Constant.Активация</constants>
   <commonForms>CommonForm.ИнтерфейсНачальнойСтраницы_</commonForms>
   <catalogs>Catalog.ФизическиеЛица</catalogs>

@@ -80,10 +80,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Список.Сотрудник</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Список.ФизическоеЛицо</segments>
           </dataPath>
           <extendedTooltip>
             <name>СотрудникExtendedTooltip</name>

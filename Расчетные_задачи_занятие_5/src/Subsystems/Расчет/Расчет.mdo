@@ -10,7 +10,6 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Документы</picture>
   </picture>
-  <content>Report.РасчетныеЛистки</content>
   <content>DataProcessor.КонсольЗапросов</content>
   <content>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</content>
   <content>DataProcessor.ГрафическоеПредставлениеОсновныхНачислений</content>

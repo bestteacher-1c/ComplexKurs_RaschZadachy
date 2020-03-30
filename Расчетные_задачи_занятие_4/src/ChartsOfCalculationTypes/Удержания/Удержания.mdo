@@ -45,7 +45,6 @@
       <base>ChartOfCalculationTypes.ОсновныеНачисления.ОкладПоДням</base>
       <base>ChartOfCalculationTypes.ДополнительныеНачисления.ПремияПроцентом</base>
       <leading>ChartOfCalculationTypes.ОсновныеНачисления.Больничный</leading>
-      <leading>ChartOfCalculationTypes.ОсновныеНачисления.ОкладНаВыезде</leading>
       <leading>ChartOfCalculationTypes.ОсновныеНачисления.ОкладПоДням</leading>
       <leading>ChartOfCalculationTypes.ДополнительныеНачисления.ПремияПроцентом</leading>
       <leading>ChartOfCalculationTypes.ДополнительныеНачисления.ПремияСуммой</leading>

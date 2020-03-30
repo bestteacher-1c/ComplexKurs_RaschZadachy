@@ -20,6 +20,7 @@
   <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
   <mainSectionPicture/>
   <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
   <compatibilityMode>8.3.14</compatibilityMode>
   <languages uuid="32a9ad07-27d3-4bfc-b639-6f7887ee885e">
     <name>Русский</name>

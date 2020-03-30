@@ -105,27 +105,6 @@
       </code>
       <base>ChartOfCalculationTypes.ОсновныеНачисления.ОкладПоДням</base>
     </items>
-    <items id="6f1073b2-f3b2-4557-982b-9d27d55a02ac">
-      <name>Доплата</name>
-      <description>Доплата за вредность</description>
-      <code xsi:type="core:StringValue">
-        <value>00002</value>
-      </code>
-      <displaced>ChartOfCalculationTypes.ОсновныеНачисления.Больничный</displaced>
-      <displaced>ChartOfCalculationTypes.ОсновныеНачисления.ОкладНаВыезде</displaced>
-      <base>ChartOfCalculationTypes.ОсновныеНачисления.ОкладПоДням</base>
-      <leading>ChartOfCalculationTypes.ОсновныеНачисления.Больничный</leading>
-      <leading>ChartOfCalculationTypes.ОсновныеНачисления.ОкладНаВыезде</leading>
-      <leading>ChartOfCalculationTypes.ОсновныеНачисления.ОкладПоДням</leading>
-    </items>
-    <items id="5c70c626-533f-4e0d-99eb-5ebbc1f57273">
-      <name>ОкладНаВыезде</name>
-      <description>Оклад на выезде</description>
-      <code xsi:type="core:StringValue">
-        <value>00020</value>
-      </code>
-      <displaced>ChartOfCalculationTypes.ОсновныеНачисления.Больничный</displaced>
-    </items>
     <items id="12f094e9-4a25-44cb-9969-a55a83e57c92">
       <name>ОкладПоДням</name>
       <description>Оклад по дням</description>
@@ -133,22 +112,21 @@
         <value>00001</value>
       </code>
       <displaced>ChartOfCalculationTypes.ОсновныеНачисления.Больничный</displaced>
-      <displaced>ChartOfCalculationTypes.ОсновныеНачисления.ОкладНаВыезде</displaced>
+      <leading>ChartOfCalculationTypes.ОсновныеНачисления.Больничный</leading>
     </items>
-    <items id="652fb55f-633a-45bb-aa84-d7c18e4dd26d">
-      <name>Надбавка</name>
+    <items id="ac6ea6bc-e0b0-4d8b-9fe8-c043490eb78d">
+      <name>ДоплатаЗаВредность</name>
+      <description>Доплата за вредность</description>
+      <code xsi:type="core:StringValue">
+        <value>00002</value>
+      </code>
+    </items>
+    <items id="a52322a8-a469-471f-ab51-7ba2ac7b6acc">
+      <name>СевернаяНадбавка</name>
       <description>Северная надбавка</description>
       <code xsi:type="core:StringValue">
         <value>00003</value>
       </code>
-      <displaced>ChartOfCalculationTypes.ОсновныеНачисления.Больничный</displaced>
-      <displaced>ChartOfCalculationTypes.ОсновныеНачисления.ОкладНаВыезде</displaced>
-      <base>ChartOfCalculationTypes.ОсновныеНачисления.ОкладПоДням</base>
-      <base>ChartOfCalculationTypes.ОсновныеНачисления.Надбавка</base>
-      <leading>ChartOfCalculationTypes.ОсновныеНачисления.Больничный</leading>
-      <leading>ChartOfCalculationTypes.ОсновныеНачисления.Доплата</leading>
-      <leading>ChartOfCalculationTypes.ОсновныеНачисления.ОкладНаВыезде</leading>
-      <leading>ChartOfCalculationTypes.ОсновныеНачисления.ОкладПоДням</leading>
     </items>
   </predefined>
   <attributes uuid="6e180e86-371a-4a1f-a1f6-67b8090a0b9d">

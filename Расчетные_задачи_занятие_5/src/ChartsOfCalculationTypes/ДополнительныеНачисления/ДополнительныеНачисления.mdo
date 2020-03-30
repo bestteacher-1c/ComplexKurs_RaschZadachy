@@ -36,14 +36,6 @@
   <baseCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</baseCalculationTypes>
   <baseCalculationTypes>ChartOfCalculationTypes.ДополнительныеНачисления</baseCalculationTypes>
   <predefined>
-    <items id="e2a0b9c5-9606-48bb-80bf-21860bb2ecb1">
-      <name>КомпенсацияЗаВыезд</name>
-      <description>Компенсация за выезд</description>
-      <code xsi:type="core:StringValue">
-        <value>00004</value>
-      </code>
-      <base>ChartOfCalculationTypes.ОсновныеНачисления.ОкладНаВыезде</base>
-    </items>
     <items id="34cca6c1-6e92-4842-9569-a3748cc28811">
       <name>ПремияПроцентом</name>
       <description>Премия процентом</description>
@@ -59,7 +51,6 @@
       <code xsi:type="core:StringValue">
         <value>00003</value>
       </code>
-      <base>ChartOfCalculationTypes.ОсновныеНачисления.ОкладНаВыезде</base>
       <base>ChartOfCalculationTypes.ОсновныеНачисления.ОкладПоДням</base>
       <base>ChartOfCalculationTypes.ДополнительныеНачисления.ПремияПроцентом</base>
       <base>ChartOfCalculationTypes.ДополнительныеНачисления.ПремияСуммой</base>
