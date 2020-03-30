@@ -19,13 +19,5 @@
       <group>NavigationPanelImportant</group>
       <commands>DocumentJournal.ЖурналРасчетныхДокументов.StandardCommand.OpenList</commands>
     </orderFragments>
-    <orderFragments>
-      <group>NavigationPanelOrdinary</group>
-      <commands>0:9277fb2a-e6d5-4ef0-88c7-8213b417c075</commands>
-      <commands>0:1ab99571-4cc9-4a06-a520-dc65be9ae758</commands>
-      <commands>Document.БольничныйЛист.StandardCommand.OpenList</commands>
-      <commands>0:3e74616d-3f35-4d36-a583-84267872cafc</commands>
-      <commands>0:97f4b7af-46a7-4f57-bf11-90a0557acdb1</commands>
-    </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

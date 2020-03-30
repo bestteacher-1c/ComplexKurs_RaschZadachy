@@ -97,58 +97,39 @@
   <baseCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</baseCalculationTypes>
   <actionPeriodUse>true</actionPeriodUse>
   <predefined>
-    <items id="41c39330-9845-45a8-8bd8-3391cba8d276">
+    <items id="5e6d21c5-3360-4a4c-a6f2-f720ca1c23ff">
       <name>Больничный</name>
       <description>Больничный</description>
       <code xsi:type="core:StringValue">
-        <value>00013</value>
+        <value>00004</value>
       </code>
-      <base>ChartOfCalculationTypes.ОсновныеНачисления.ОкладПоДням</base>
     </items>
-    <items id="fadd2f1d-e851-4b3c-83eb-a3c10826f529">
-      <name>Доплата</name>
-      <description>Доплата</description>
+    <items id="50f1d232-4162-41e8-bcc9-9c8b1cf4e9c3">
+      <name>ДоплатаЗаВредность</name>
+      <description>Доплата за вредность</description>
       <code xsi:type="core:StringValue">
         <value>00002</value>
       </code>
       <displaced>ChartOfCalculationTypes.ОсновныеНачисления.Больничный</displaced>
-      <displaced>ChartOfCalculationTypes.ОсновныеНачисления.ОкладНаВыезде</displaced>
       <base>ChartOfCalculationTypes.ОсновныеНачисления.ОкладПоДням</base>
-      <leading>ChartOfCalculationTypes.ОсновныеНачисления.Больничный</leading>
-      <leading>ChartOfCalculationTypes.ОсновныеНачисления.ОкладНаВыезде</leading>
-      <leading>ChartOfCalculationTypes.ОсновныеНачисления.ОкладПоДням</leading>
     </items>
-    <items id="5747b1ed-c7cb-4531-aff4-e9c03fe8fdec">
-      <name>Надбавка</name>
-      <description>Надбавка</description>
-      <code xsi:type="core:StringValue">
-        <value>00003</value>
-      </code>
-      <displaced>ChartOfCalculationTypes.ОсновныеНачисления.Больничный</displaced>
-      <displaced>ChartOfCalculationTypes.ОсновныеНачисления.ОкладНаВыезде</displaced>
-      <base>ChartOfCalculationTypes.ОсновныеНачисления.Доплата</base>
-      <base>ChartOfCalculationTypes.ОсновныеНачисления.ОкладПоДням</base>
-      <leading>ChartOfCalculationTypes.ОсновныеНачисления.Больничный</leading>
-      <leading>ChartOfCalculationTypes.ОсновныеНачисления.Доплата</leading>
-      <leading>ChartOfCalculationTypes.ОсновныеНачисления.ОкладНаВыезде</leading>
-      <leading>ChartOfCalculationTypes.ОсновныеНачисления.ОкладПоДням</leading>
-    </items>
-    <items id="ddcf2f54-fb99-4739-965b-57bd88e8a8cc">
-      <name>ОкладНаВыезде</name>
-      <description>Оклад на выезде</description>
-      <code xsi:type="core:StringValue">
-        <value>00020</value>
-      </code>
-      <displaced>ChartOfCalculationTypes.ОсновныеНачисления.Больничный</displaced>
-    </items>
-    <items id="12f094e9-4a25-44cb-9969-a55a83e57c92">
+    <items id="5221cda9-8cc9-4214-bb80-b5a0701d5189">
       <name>ОкладПоДням</name>
       <description>Оклад по дням</description>
       <code xsi:type="core:StringValue">
         <value>00001</value>
       </code>
       <displaced>ChartOfCalculationTypes.ОсновныеНачисления.Больничный</displaced>
-      <displaced>ChartOfCalculationTypes.ОсновныеНачисления.ОкладНаВыезде</displaced>
+    </items>
+    <items id="3e72905f-3d06-4bfc-9247-df0d477edf76">
+      <name>СевернаяНадбавка</name>
+      <description>Северная надбавка</description>
+      <code xsi:type="core:StringValue">
+        <value>00003</value>
+      </code>
+      <displaced>ChartOfCalculationTypes.ОсновныеНачисления.Больничный</displaced>
+      <base>ChartOfCalculationTypes.ОсновныеНачисления.ОкладПоДням</base>
+      <base>ChartOfCalculationTypes.ОсновныеНачисления.ДоплатаЗаВредность</base>
     </items>
   </predefined>
   <attributes uuid="6e180e86-371a-4a1f-a1f6-67b8090a0b9d">
@@ -231,20 +212,20 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="7dfc98d8-70e6-4327-b1a0-ed887cb8e1ed">
-    <name>ФормаВидаРасчета</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма вида расчета</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="068db5aa-3682-4f99-a769-c5b924b4e2db">
+  <forms uuid="037f8316-7ea0-4c57-a081-7075720de40c">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="43c7bbdd-0f81-4cdd-aed8-ae5834014c7f">
+    <name>ФормаВидаРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма вида расчета</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

@@ -14,8 +14,8 @@
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>Код</name>
-      <id>6</id>
+      <name>Наименование</name>
+      <id>4</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -23,11 +23,12 @@
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
         <paths xsi:type="form:DataPath">
-          <segments>Список.Code</segments>
+          <segments>Список.Description</segments>
         </paths>
       </dataPath>
+      <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>КодРасширеннаяПодсказка</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -42,8 +43,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>КодКонтекстноеМеню</name>
-        <id>7</id>
+        <name>НаименованиеКонтекстноеМеню</name>
+        <id>5</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -62,8 +63,8 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Наименование</name>
-      <id>4</id>
+      <name>Код</name>
+      <id>6</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -71,12 +72,11 @@
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
         <paths xsi:type="form:DataPath">
-          <segments>Список.Description</segments>
+          <segments>Список.Code</segments>
         </paths>
       </dataPath>
-      <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>НаименованиеРасширеннаяПодсказка</name>
+        <name>КодРасширеннаяПодсказка</name>
         <id>19</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -91,8 +91,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>НаименованиеКонтекстноеМеню</name>
-        <id>5</id>
+        <name>КодКонтекстноеМеню</name>
+        <id>7</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -378,29 +378,11 @@
     <edit>
       <common>true</common>
     </edit>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.Состояние</segments>
-    </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <queryText>ВЫБРАТЬ
-	СправочникФизическиеЛица.Ссылка,
-	СправочникФизическиеЛица.ПометкаУдаления,
-	СправочникФизическиеЛица.Предопределенный,
-	СправочникФизическиеЛица.Родитель,
-	СправочникФизическиеЛица.ЭтоГруппа,
-	СправочникФизическиеЛица.Код,
-	СправочникФизическиеЛица.Наименование,
-	СправочникФизическиеЛица.СреднийЗаработокЗаДень,
-	ЕСТЬNULL(СотрудникиСрезПоследних.Состояние, ЗНАЧЕНИЕ(Перечисление.СостоянияФизическогоЛица.Уволен)) КАК Состояние
-ИЗ
-	Справочник.ФизическиеЛица КАК СправочникФизическиеЛица
-		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Сотрудники.СрезПоследних КАК СотрудникиСрезПоследних
-		ПО СправочникФизическиеЛица.Ссылка = СотрудникиСрезПоследних.ФизическоеЛицо</queryText>
       <mainTable>Catalog.ФизическиеЛица</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
-      <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>

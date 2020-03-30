@@ -36,23 +36,14 @@
   <baseCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</baseCalculationTypes>
   <baseCalculationTypes>ChartOfCalculationTypes.ДополнительныеНачисления</baseCalculationTypes>
   <predefined>
-    <items id="bc1a9c8d-80bc-4e91-a499-fe277fcc45be">
-      <name>КомпенсацияЗаВыезд</name>
-      <description>Компенсация за выезд</description>
-      <code xsi:type="core:StringValue">
-        <value>00004</value>
-      </code>
-    </items>
-    <items id="34cca6c1-6e92-4842-9569-a3748cc28811">
+    <items id="35420fab-0a3c-4cf5-ae25-444176e102e1">
       <name>ПремияПроцентом</name>
       <description>Премия процентом</description>
       <code xsi:type="core:StringValue">
         <value>00002</value>
       </code>
-      <base>ChartOfCalculationTypes.ОсновныеНачисления.ОкладПоДням</base>
-      <base>ChartOfCalculationTypes.ДополнительныеНачисления.ПремияСуммой</base>
     </items>
-    <items id="2f409ae1-979c-4dda-931c-cdb05e98e4cd">
+    <items id="8919d4e0-d247-43a4-bca1-a9a04866897a">
       <name>ПремияСуммой</name>
       <description>Премия суммой</description>
       <code xsi:type="core:StringValue">
@@ -90,7 +81,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="ef889454-8006-4999-822e-206f2247c4aa">
+  <forms uuid="ac483b24-126d-483c-93d2-5fdb76478fc2">
     <name>ФормаВидаРасчета</name>
     <synonym>
       <key>ru</key>
@@ -99,7 +90,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="3258c6af-4b40-4f8f-861f-ebdf78be39da">
+  <forms uuid="9409faaf-310f-47f8-b7b7-92f32f3573d8">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>

@@ -36,16 +36,14 @@
   <baseCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</baseCalculationTypes>
   <baseCalculationTypes>ChartOfCalculationTypes.ДополнительныеНачисления</baseCalculationTypes>
   <predefined>
-    <items id="639dde45-6d38-4a1d-b9e2-52470ceb31a5">
+    <items id="23f852df-8b37-4cfa-886b-b1cc9512a346">
       <name>УдержаниеПроцентом</name>
       <description>Удержание процентом</description>
       <code xsi:type="core:StringValue">
         <value>00002</value>
       </code>
-      <base>ChartOfCalculationTypes.ОсновныеНачисления.ОкладПоДням</base>
-      <base>ChartOfCalculationTypes.ДополнительныеНачисления.ПремияПроцентом</base>
     </items>
-    <items id="6755c53e-fcc5-4bcd-ac1f-7b4f692fd1ad">
+    <items id="ddeee8b8-c074-4cf3-8dd8-a2a3ba2b34da">
       <name>УдержаниеСуммой</name>
       <description>Удержание суммой</description>
       <code xsi:type="core:StringValue">
@@ -83,20 +81,20 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="67edbe1d-76e3-445a-be4c-4027fd4467c9">
-    <name>ФормаВидаРасчета</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма вида расчета</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="9e423eb8-b371-4271-b230-9aef7da17c9d">
+  <forms uuid="8de7067a-82ff-4623-8242-7f54c8cd9736">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a26a6d3a-b8d6-4eb5-87d7-1c14af6b19b2">
+    <name>ФормаВидаРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма вида расчета</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

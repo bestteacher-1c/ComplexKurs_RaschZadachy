@@ -149,6 +149,18 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="66125d02-2935-438f-9b23-695211fa7d89">
+    <name>ЦветШрифт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет шрифт</value>
+    </synonym>
+    <type>
+      <types>Color</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <tabularSections uuid="b246fbd1-35d1-4e54-bc94-fd85d3e9997c">
     <producedTypes>
       <objectType typeId="1c4ed1f2-893e-4666-8eb4-45e036ede89d" valueTypeId="580d5782-4b26-4557-a0e8-815470892a28"/>

@@ -7,39 +7,17 @@
         <common>true</common>
       </visible>
     </visibilityFragments>
-    <visibilityFragments>
-      <command>Document.ПриказОбУвольнении.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Document.ПриказОПриеме.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
       <group>NavigationPanelImportant</group>
       <commands>DocumentJournal.ЖурналКадровыхДокументов.StandardCommand.OpenList</commands>
     </placementFragments>
-    <placementFragments>
-      <group>NavigationPanelSeeAlso</group>
-      <commands>Document.ПриказОбУвольнении.StandardCommand.OpenList</commands>
-      <commands>Document.ПриказОПриеме.StandardCommand.OpenList</commands>
-    </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelImportant</group>
       <commands>DocumentJournal.ЖурналКадровыхДокументов.StandardCommand.OpenList</commands>
-    </orderFragments>
-    <orderFragments>
-      <group>NavigationPanelSeeAlso</group>
-      <commands>Document.ПриказОбУвольнении.StandardCommand.OpenList</commands>
-      <commands>Document.ПриказОПриеме.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

@@ -271,7 +271,7 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <forms uuid="ccd2870e-1600-4f00-ab55-5d9b1d723e7d">
+  <forms uuid="da2658f1-268d-43e4-9406-9d912be535fa">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
@@ -280,7 +280,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="1b9527cd-a64e-4749-8780-d0c4b3dac39c">
+  <forms uuid="508df0ee-f9e4-4611-89e0-882b442e45bb">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
@@ -289,7 +289,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="e6ba5d32-997a-477e-97e4-b13920e6f907">
+  <forms uuid="1cf2d0f6-8f0f-4d91-9e41-b228fe86cd23">
     <name>ФормаВыбора</name>
     <synonym>
       <key>ru</key>

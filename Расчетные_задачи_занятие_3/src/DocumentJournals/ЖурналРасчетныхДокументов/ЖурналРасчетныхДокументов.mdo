@@ -79,7 +79,7 @@
     </synonym>
     <references>Document.БольничныйЛист.Attribute.ФизическоеЛицо</references>
   </columns>
-  <forms uuid="68f21483-fb70-44fc-96e3-d10d9ecd29c2">
+  <forms uuid="65abda13-e5d9-4229-a4e8-eab15a2c32af">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>

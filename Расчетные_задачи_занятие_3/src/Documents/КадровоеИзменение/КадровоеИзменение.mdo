@@ -166,7 +166,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="d091b0fb-2d98-4742-b0f1-3fb924732a33">
+  <forms uuid="adb4dbdb-bffa-4581-82dc-1fa7fc045217">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>

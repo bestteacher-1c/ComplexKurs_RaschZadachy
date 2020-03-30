@@ -95,7 +95,7 @@
     <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
   </dimensions>
-  <forms uuid="97c45cf7-7b0d-4c70-a797-3ef1df0fd945">
+  <forms uuid="57574803-3d50-472b-ae5a-96a0f00f33ca">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>

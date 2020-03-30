@@ -55,7 +55,7 @@
     <references>Document.ПриказОПриеме.Attribute.ДатаСобытия</references>
     <references>Document.КадровоеИзменение.Attribute.ДатаСобытия</references>
   </columns>
-  <forms uuid="0180bf62-6661-46c3-87a2-b1318ce3d247">
+  <forms uuid="ea52cc43-4350-446b-b86e-564b99c78563">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>

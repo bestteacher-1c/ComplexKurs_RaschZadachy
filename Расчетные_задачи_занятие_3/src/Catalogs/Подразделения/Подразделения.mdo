@@ -107,14 +107,4 @@
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <choiceMode>BothWays</choiceMode>
-  <defaultListForm>Catalog.Подразделения.Form.ФормаСписка</defaultListForm>
-  <forms uuid="0bb2b693-812b-43c4-9086-8ab21c744ae6">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
 </mdclass:Catalog>

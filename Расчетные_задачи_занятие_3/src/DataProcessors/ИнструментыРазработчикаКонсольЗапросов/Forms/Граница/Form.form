@@ -489,7 +489,7 @@
       </handler>
     </action>
     <representation>Text</representation>
-    <currentRowUse>Auto</currentRowUse>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

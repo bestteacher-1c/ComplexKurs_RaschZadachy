@@ -10,7 +10,7 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Документы</picture>
   </picture>
-  <content>DataProcessor.КонсольЗапросов</content>
+  <content>2d9bd268-5b42-409f-b6db-59bfa215d55e</content>
   <content>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</content>
   <content>CalculationRegister.ОсновныеНачисления</content>
   <content>CalculationRegister.ДополнительныеНачисления</content>

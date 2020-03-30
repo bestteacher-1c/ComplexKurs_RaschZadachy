@@ -977,8 +977,8 @@
       <segments>Список.DefaultPicture</segments>
     </rowPictureDataPath>
     <backColor xsi:type="core:ColorDef">
-      <red>222</red>
-      <green>245</green>
+      <red>231</red>
+      <green>252</green>
       <blue>255</blue>
     </backColor>
     <searchStringLocation>None</searchStringLocation>

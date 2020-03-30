@@ -28,10 +28,10 @@
     </synonym>
   </enumValues>
   <enumValues uuid="f4dac682-a6a2-4260-9be4-bb03d6fd5b6b">
-    <name>Перемещение</name>
+    <name>Болеет</name>
     <synonym>
       <key>ru</key>
-      <value>Перемещение</value>
+      <value>Болеет</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>
