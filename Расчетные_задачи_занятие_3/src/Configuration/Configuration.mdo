@@ -43,7 +43,7 @@
   <commonPictures>CommonPicture.Сервис</commonPictures>
   <interfaces>Interface.Основной</interfaces>
   <commonModules>CommonModule.Сервис</commonModules>
-  <commonModules>CommonModule.ОбщийМодульСерверВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбщийМодульРасчетРесурсов</commonModules>
   <commonModules>CommonModule.ОбщийМодульСервер</commonModules>
   <eventSubscriptions>EventSubscription.ПроведениеКадровыхДокументов</eventSubscriptions>
   <constants>Constant.Активация</constants>
